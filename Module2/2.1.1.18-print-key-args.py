@@ -1,4 +1,4 @@
-print("¡Hola, Mundo!")
+print("¡Hello, World!")
 
 # print'gonzon' SyntaxError: invalid syntax
 
@@ -12,16 +12,16 @@ print('gonzon')
 # print("\") SyntaxError: EOL while scanning string literal
 print("\\")
 
-print("La Witsi Witsi Arañar" , "subió" , "a su telaraña.")
+print("La Witsi Witsi Spider" , "went up" , "to his spiderweb.")
 
 # key args
 # end
-print("Mi nombre es", "Python.", end="    ")
+print("My name is", "Python.", end="    ")
 print("Monty Python.")
 
 # sep
-print("Mi", "nombre", "es", "Monty", "Python.", sep="-")
+print("My", "name", "is", "Monty", "Python.", sep="-")
 
 # sep + end
-print("Mi", "nombre", "es", sep="_", end="*")
+print("My", "name", "is", sep="_", end="*")
 print("Monty", "Python.", sep="*", end="*\n")
